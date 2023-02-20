@@ -1,0 +1,165 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* ------------------------------------------ */
+
+body{
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.container{
+    width: 32.5rem;
+    background-color: hsl(225, 100%, 98%);
+    border-top-left-radius: 1.3rem;
+    border-top-right-radius: 1.3rem;
+    text-align: center;
+    border-bottom-left-radius: 1.3rem;
+    border-bottom-right-radius: 1.3rem;
+}
+
+.container .img-hero{
+    border-top-left-radius: 1.3rem;
+    border-top-right-radius: 1.3rem;
+    margin-bottom: 2.5rem;
+    width: 100%;
+}
+
+
+.textos{
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.textos h1{
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 1.5rem;
+}
+
+.textos p{
+    color: hsl(224, 23%, 55%);  
+    max-width: 20rem; 
+}
+
+
+.plano{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.planos{
+    display: flex;
+    flex-direction: row;
+    max-width: 20rem;
+    border-radius: 1rem;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;   
+    background-color: hsla(225, 100%, 94%, 0.3);
+    margin-bottom: 2rem;
+}
+
+.plano .musica{
+    width: 3rem;
+}
+
+.plano .textos-musica{
+    line-height: 1.5rem;
+    margin-left: 1.3rem;
+    margin-right: 3rem;
+}
+
+.plano .textos-musica ul li:first-child{
+    color: hsl(223, 47%, 23%);
+    font-size: 1.1rem;
+    font-weight: 900;
+}
+
+.plano .textos-musica ul li:last-child{
+    color: hsl(224, 23%, 55%);
+}
+
+.bnt-one{
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.bn632-hover {
+    width: 27rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    height: 3.1rem;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 1rem;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+.bn632-hover:focus {
+    outline: none;
+  }
+  
+.bn632-hover.bn20 {
+    background-image: linear-gradient(
+      to right,
+      #2b48c9,
+      #6b4790,
+      #255fdc,
+      #a44fe9
+    );
+    box-shadow: 0 0.4rem 1.5rem 0 rgba(116, 79, 168, 0.75);
+    margin-bottom: 2rem;
+}
+
+.cancel{
+    font-size: 1rem;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 5rem;
+}
