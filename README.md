@@ -10,7 +10,7 @@ Os usuários devem ser capazes de:
 
 ### Captura de tela
 
-![](./img/site.png)
+![](site.png)
 
 ### Construído com
 
