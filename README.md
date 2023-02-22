@@ -1,5 +1,5 @@
-<h1>Projeto-WireFrame</h1>
-<p>Projeto para treinar o Media Query</p>
+<h1>projeto-Order-summary</h1>
+<p>Projeto retirado do site https://www.frontendmentor.io</p>
 
 ### O desafio
 
@@ -17,7 +17,3 @@ Os usuários devem ser capazes de:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-
-- Media Query
-
-- Media Query
